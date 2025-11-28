@@ -1,14 +1,14 @@
 <?php
 session_start();
 
-// daftar produk (nanti bisa dari database)
+// daftar produk 
 $produk = [
     ["id" => 1, "nama" => "Vitamin C", "harga" => 25000, "gambar" => "img/vitc.png"],
     ["id" => 2, "nama" => "Susu Anak", "harga" => 55000, "gambar" => "img/susu.png"],
     ["id" => 3, "nama" => "Minyak Angin", "harga" => 15000, "gambar" => "img/minyak.png"]
 ];
 
-// kalau tombol BELI ditekan
+// Button beli ditekan
 if (isset($_POST["beli"])) {
     $id = $_POST["id"];
     $_SESSION["cart"][$id] = ( $_SESSION["cart"][$id] ?? 0 ) + 1;
@@ -46,3 +46,4 @@ if (isset($_POST["beli"])) {
 
 </body>
 </html>
+
