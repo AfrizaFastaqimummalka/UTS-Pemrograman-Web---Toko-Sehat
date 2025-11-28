@@ -31,11 +31,11 @@ session_start();
         <h1>Informasi Toko</h1>
         <p>Kami menyediakan produk kebutuhan kesehatan keluarga Anda.</p>
 
-        <!-- gambar bisa kamu ganti -->
+        <!-- gambar -->
         <img src="img/banner.png" class="hero-img" alt="Banner Toko">
     </div>
 
-    <!-- RIGHT PANEL -->
+    <!-- PANEL KANAN -->
     <div class="right-panel">
         <h2>Promo Populer</h2>
 
@@ -49,3 +49,4 @@ session_start();
 
 </body>
 </html>
+
