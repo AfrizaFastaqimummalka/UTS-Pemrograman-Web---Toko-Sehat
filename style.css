@@ -1,0 +1,150 @@
+/* RESET */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    background: #e8f3ff;
+}
+
+/* HEADER */
+.header {
+    background: #2a72c7;
+    color: white;
+    padding: 22px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* GRID LAYOUT */
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr 260px;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    height: 480px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.sidebar h2 { text-align: center; margin-bottom: 20px; color: #1e5aa8; }
+
+.menu-btn {
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    background: #b7f7c5;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    color: #1e5c3b;
+}
+
+.menu-btn:hover {
+    transform: scale(1.06);
+    background: #9befb3;
+}
+.logout { background: #ffb4b4; color: #a33a3a; }
+.logout:hover { background: #ff9c9c; }
+
+/* CONTENT */
+.content {
+    background: #f4faff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.content h1 { font-size: 26px; color: #2b5ca7; }
+.content p { font-size: 15px; color: #555; }
+
+.hero-img {
+    width: 75%;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* RIGHT PANEL */
+.right-panel {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    height: 480px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.right-panel h2 { color: #1e5aa8; text-align: center; }
+
+.promo-box {
+    background: #e8f3ff;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2a5fc7;
+    text-align: center;
+}
+
+/* PRODUK */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.25s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.btn-beli {
+    margin-top: 10px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: #2a72c7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-beli:hover {
+    background: #1d5aa7;
+}
+
+/* KERANJANG */
+.cart-item {
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
