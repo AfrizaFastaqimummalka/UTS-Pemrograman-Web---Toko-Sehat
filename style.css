@@ -76,7 +76,7 @@ body {
     box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
 }
 
-/* RIGHT PANEL */
+/* PANEL KANAN */
 .right-panel {
     background: #ffffff;
     padding: 20px;
@@ -148,3 +148,4 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
