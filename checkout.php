@@ -2,12 +2,15 @@
 session_start();
 
 if (isset($_POST["bayar"])) {
+
+    // Simpan data order
     $_SESSION["order"] = [
         "nama" => $_POST["nama"],
         "alamat" => $_POST["alamat"]
     ];
 
-    $_SESSION["cart"] = []; // kosongkan keranjang
+    // Mengosongkan Keranjang
+    $_SESSION["keranjang"] = [];
 
     echo "<script>alert('Pesanan berhasil!');window.location='index.php';</script>";
 }
