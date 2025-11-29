@@ -35,7 +35,7 @@ session_start();
         <img src="img/banner.png" class="hero-img" alt="Banner Toko">
     </div>
 
-    <!-- PANEL KANAN -->
+    <!-- RIGHT PANEL -->
     <div class="right-panel">
         <h2>Promo Populer</h2>
 
@@ -49,4 +49,3 @@ session_start();
 
 </body>
 </html>
-
